@@ -1,0 +1,26 @@
+
+.table-container{
+    margin-top:30px;
+   margin-left:350px;
+     line-height: 50px;
+}
+table{
+    text-align: center;
+}
+input[type="Submit"]{
+    background-color:rgb(20, 24, 69);
+    color:#ffffff;
+    border:none;
+    font-size: 20px;
+    font-weight: 900;
+}
+input[type="Reset"]{
+    background-color:rgb(20, 24, 69);
+    color:#ffffff;
+    border:none;
+    font-size: 20px;
+    font-weight: 900;
+}
+input{
+    color:black;
+}

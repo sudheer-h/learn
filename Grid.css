@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(76, 76, 76);
+    height: 100px;
+    display: flex;
+    gap:30px;
+    
+   
+}
+input{
+   border:1px solid   rgb(76, 76, 76);
+    background-color:  rgb(49, 47, 47);
+    color:red;
+    font-size:larger;
+    width:200px;
+    height: 20px;
+    padding:40px;
+   margin-left: 700px;
+    position: absolute;
+    
+    
+}
+img{
+    width:300px;
+}
+button{
+    border:transparent;
+    color:red;
+    width:100px;
+    background-color: rgb(76, 76, 76);
+   
+}
+.conti{
+    height: 150px;
+}
+.card-two{
+    margin-top: 40px;
+    width:300px;
+    height: 300px;
+    background-color: #14b6ec;
+   
+}
+.card{
+    margin-top: 40px;
+    width:300px;
+    height: 300px;
+    background-color: #14b6ec;
+   
+}
+.details{
+    margin-left: 50px;
+}
+
+.btn-bike-one{
+    margin-left: 50px;
+    background-color: #FEEFD6;
+    color:rgb(102, 102, 242);
+    background-color: black;
+    padding: 5px;
+}
+.btn-bike-two{
+    margin-left: 50px;
+    background-color: #FEEFD6;
+    color:rgb(102, 102, 242);
+    background-color: black;
+    padding: 5px;
+}
+
+.btn-bike-two{
+    margin-left: 50px;
+    background-color: #FEEFD6;
+    color:rgb(102, 102, 242);
+    background-color: black;
+    padding: 5px;
+}
+.image{
+   
+    width:100px;
+    height: 100px;
+    background-color: #FEEFD6;
+}
+.container{
+    display:grid;
+   grid-template-columns: 2fr 2fr 2fr;
+}
+button{
+    width:100px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+button:hover{
+    width:200px;
+}
+.btn{
+    width:100px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    float: left;
+}
+.btn:hover{
+    width:200px;
+    background-color: black;
+}

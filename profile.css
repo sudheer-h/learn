@@ -1,0 +1,58 @@
+.profile {
+
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin-left: 40%;
+    display: inline;
+}
+
+.name {
+    font-size: 200%;
+
+}
+
+.ps {
+    color: rgb(95, 160, 140);
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 50px;
+}
+
+.p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 3px;
+
+}
+
+.Achivements {
+    color: rgb(95, 160, 140);
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 50px;
+
+}
+.ach{
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+
+}
+.Edu {
+    color: rgb(95, 160, 140);
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 50px;
+
+}
+table{ 
+    line-height: 30px;
+    text-align: center;
+}
+.profil{
+    font-size:50px;
+    color: rgb(177, 191, 18);
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px  ;
+}

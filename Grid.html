@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example {
+
+            width: 50px;
+            height: 50px;
+
+            background-color: red;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+        @keyframes example {
+            from {
+                transform:rotate(360deg);
+            }
+            to {
+                transform:rotate(0deg);
+            }
+        }
+        .ex {
+            display: inline-grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 100px 100px;
+
+        }
+        .exx{
+            width: 50px;
+            height: 50px;
+            transition-property: width;
+            transition-duration:4s;
+            
+            background-color: rgb(9, 9, 9);
+        }
+        .exx:hover{
+            width:1000px;
+        }
+
+        @keyframes example {
+            from {
+                transform:rotate(360deg);
+            }
+            to {
+                transform:rotate(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ex">
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+        <div class="example"></div>
+    </div>
+    <br><br><br>
+    <div class="exx"></div>
+</body>
+
+</html>

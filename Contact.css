@@ -1,0 +1,48 @@
+body{
+    background-color:gray;
+   
+}
+.contact{
+    color:gold;
+    font-size: 5em;
+}
+.sub{
+    color:rgb(140, 255, 0);
+}
+input[type="yourname"]{
+    width: 20%;
+    border-radius:30px;
+    padding:5px;
+}
+.name{
+    margin-left:2%;
+    margin-top:10%;
+}
+input[type="email"]{
+    width: 20%;
+    border:transparent;
+    border-radius:30px;
+    padding:5px;
+}
+.email{
+    margin-left:2%;
+    margin-top:1%;
+}
+.message{
+    margin-left:2%;
+    margin-top:1%;
+    border-radius: 30px;
+}
+.send{
+    margin-left:2%;
+    margin-top:1%;
+}
+#sen{
+    border-radius: 30px;
+    width:8%;
+    color:#ffffff;
+    background-color:darkblue;
+}
+#sen:hover{
+    background-color:rgb(47, 0, 255)
+}

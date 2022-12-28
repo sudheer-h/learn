@@ -1,0 +1,175 @@
+/*index.css*/
+*{
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+::selection {
+    color: rgb(0, 225, 255);
+    background: rgb(132, 163, 255);
+  }
+body{
+    background-color:rgb(20, 24, 69);
+     height: 96vh;
+    position: relative;
+    background-position: center;
+}
+.para{
+    text-align: center;
+    padding: 50px;
+    font-size: 10px;
+    font-size: 20px;
+    animation-name: bor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border:2px solid red;
+    width:70%;
+    margin-left:100px;
+    }
+@keyframes bor{
+   0%{
+    border-top:2px solid red;
+   }
+   25%{
+    border-right:2px solid rgb(0, 234, 16);
+    }
+    50%{
+        border-bottom:2px solid rgb(5, 207, 253);
+    }
+    100%{
+        border-left:2px solid orange;
+    }
+}
+ul{
+    display:flex;
+    gap:59px;
+}
+ul li a{
+    animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes a {
+    0%{
+        color:red;
+    }
+    50%{
+        color:green;
+    }
+    100%{
+        color:blue;
+    }
+} 
+li{
+    width: 15%;
+    text-align: center;  
+   
+}
+
+ li a {
+    display: block;
+    height: 35px;
+   padding-top: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(250, 255, 254); 
+    font-size: larger;  
+}
+a{
+    width:100%;
+    transition-property: width;
+    transition-duration:.5s;
+    transition-timing-function: ease-out;
+    /* transition-delay: .1s; */
+
+}
+a:hover{
+   width:120%;
+   text-decoration: underline;
+   color:red; 
+    border-radius: 10px;
+    background-color: rgb(0, 0, 99);
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes head {
+    100%{
+        color:red;
+    }
+    50%{
+        color:green;
+    }
+    0%{
+        color:blue;
+    }
+} 
+
+h4{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px #f1d1d1;
+}
+.rectange{
+   
+    background-color: red;
+    width:60px;
+    height:60px;
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    animation:rect;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+ }
+
+@keyframes rect {
+    
+   50%{
+        background-color:green;
+       transform:rotate(360deg)
+   }
+   100%{
+    background-color: blue;
+   }
+   
+}
+ .circle{
+    border:1px solid black;
+    background-color: black;
+    width:30px;
+    height: 30px;
+    border-radius:50px;
+    animation: circ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ @keyframes circ {
+    0%{
+        background-color: green;
+        transform:scale(1);
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+        transform:scale(1.5);
+    }
+}
+.container-one{
+ float:left;
+}
+.container-two{
+ float:right;
+}

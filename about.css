@@ -1,0 +1,24 @@
+
+.mainhead{
+    text-decoration: underline;
+    color:white;
+    font-size:60px;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes head {
+    0%{
+        color:red;
+    }
+    50%{
+        color:green;
+    }
+    100%{
+        color:blue;
+    }
+}
+.about-para{
+    line-height: 30px;
+    text-align: center;
+}
